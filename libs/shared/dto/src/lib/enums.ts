@@ -1,0 +1,21 @@
+export enum UserRole {
+  USER = 'USER',
+  ORGANIZER = 'ORGANIZER',
+  ADMIN = 'ADMIN',
+}
+
+export enum BookingStatus {
+  HOLDING = 'HOLDING',
+  CONFIRMED = 'CONFIRMED',
+  EXPIRED = 'EXPIRED',
+  RELEASED = 'RELEASED',
+  CANCELLED = 'CANCELLED',
+}
+
+export enum PaymentStatus {
+  PENDING = 'PENDING',
+  COMPLETED = 'COMPLETED',
+  FAILED = 'FAILED',
+  REFUND_REQUESTED = 'REFUND_REQUESTED',
+  REFUNDED = 'REFUNDED',
+}

@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "paths": {
+      "@booking-platform/dto": ["./libs/shared/dto/src/index.ts"],
+      "@booking-platform/outbox": ["./libs/shared/outbox/src/index.ts"],
+      "@booking-platform/observability": [
+        "./libs/shared/observability/src/index.ts"
+      ],
+      "@booking-platform/auth": ["./libs/shared/auth/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

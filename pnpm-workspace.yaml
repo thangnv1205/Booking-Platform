@@ -1,0 +1,11 @@
+autoInstallPeers: true
+allowBuilds:
+  '@parcel/watcher': true
+  bcrypt: true
+  cpu-features: true
+  esbuild: true
+  less: true
+  nx: true
+  protobufjs: true
+  ssh2: true
+  unrs-resolver: true
